@@ -19,8 +19,8 @@ spec:
         app: my-web-app
     spec:
       containers:
-        - image: osamaibrahim2022/osamaibrahim
-          name: osama
+        - image: Mahmoud Elgammal2022/Mahmoud Elgammal
+          name: Mahmoud
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
