@@ -1,4 +1,7 @@
 FROM nginx:alpine
-Run mkdir /my-files
-COPY index.html /my-files
-COPY nginx.conf /etc/nginx
+
+COPY . /usr/share/nginx/html
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
